@@ -1,0 +1,158 @@
+#set_pin_assignment	{ I_sys_clk }	{ LOCATION = R7; IOSTANDARD = LVCMOS33;}
+
+#set_pin_assignment	{ O_tmds_ch0_p }	{ LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_ch1_p }	{ LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_ch2_p }	{ LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_tmds_clk_p }	{ LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+
+#set_pin_assignment	{ I_i2s_BCLK }	{ LOCATION = J13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 7
+#set_pin_assignment	{ I_i2s_LRCK }	{ LOCATION = F13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 3
+#set_pin_assignment	{ I_i2s_DOUT }	{ LOCATION = L14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE;} #J4 pin 9
+
+#set_pin_assignment	{ I_key_in }	{ LOCATION = A2; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment	{ HDMI_DDC_SCL }	{ LOCATION = P2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP;}
+set_pin_assignment	{ HDMI_DDC_SDA }	{ LOCATION = R2; IOSTANDARD = LVCMOS33;DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ HDMI_CLK_P }	{ LOCATION = C3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D0_P }	{ LOCATION = G5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D1_P }	{ LOCATION = F1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ HDMI_D2_P }	{ LOCATION = E1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment	{ clk }	{ LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment	{ key1 }	{ LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ key2 }	{ LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ key3 }	{ LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ rst_n }	{ LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ sd_dclk }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_miso }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_mosi }	{ LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ sd_ncs }	{ LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[0] }	{ LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[1] }	{ LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[2] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[3] }	{ LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[4] }	{ LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[5] }	{ LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[6] }	{ LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_data[7] }	{ LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[0] }	{ LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[1] }	{ LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[2] }	{ LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[3] }	{ LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[4] }	{ LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ seg_sel[5] }	{ LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[0] }	{ LOCATION = F6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[10] }	{ LOCATION = L8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[11] }	{ LOCATION = E13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[1] }	{ LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[2] }	{ LOCATION = D6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[3] }	{ LOCATION = D5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[4] }	{ LOCATION = T5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[5] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[6] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[7] }	{ LOCATION = N6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[8] }	{ LOCATION = R5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_data[9] }	{ LOCATION = L7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_out_hs }	{ LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+#set_pin_assignment	{ vga_out_vs }	{ LOCATION = F7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# board switches and the two unused leftmost digit selects only.
+set_pin_assignment { sw1 } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sw2 } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { seg_sel[6] } { LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { seg_sel[7] } { LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# independent U33 user Flash, HX4S20 board schematic.
+set_pin_assignment { user_flash_cs_n } { LOCATION = P8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { user_flash_sck } { LOCATION = M9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { user_flash_mosi } { LOCATION = P7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { user_flash_miso } { LOCATION = N8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { user_flash_wp_n } { LOCATION = P9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { user_flash_hold_n } { LOCATION = R9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# HX4S20 FPGA TXD -> board CH340 RXD (manual and schematics).
+set_pin_assignment { uart_rx } { LOCATION = F12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { uart_tx } { LOCATION = D12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# data/command drive only; the forwarded clock remains unchanged.
+# Data/address/command pins only: existing forwarded clock has no override.
+set_sippin_assignment {U3/sdram.dq[0]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[1]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[2]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[3]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[4]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[5]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[6]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[7]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[8]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[9]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[10]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[11]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[12]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[13]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[14]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[15]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[16]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[17]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[18]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[19]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[20]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[21]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[22]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[23]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[24]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[25]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[26]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[27]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[28]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[29]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[30]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.dq[31]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[0]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[1]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[2]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[3]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[4]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[5]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[6]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[7]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[8]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[9]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.addr[10]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.ba[0]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.ba[1]} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.ras_n} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.cas_n} {DRIVESTRENGTH = 4;}
+set_sippin_assignment {U3/sdram.we_n} {DRIVESTRENGTH = 4;}
+
+# persistent implementation attributes, loaded by normal TD project flow.
+# Exact elaborated wide-register names; no custom flow or cached Runs scripts.
+set_property IOB FALSE [get_cells -hier {U3/u_phy/pin_do_reg}]
+set_property IOB FALSE [get_cells -hier {U3/u_phy/pin_oe_reg}]
+set_property IOB FALSE [get_cells -hier {U3/u_phy/pin_ca_reg}]
+set_property IOB FALSE [get_cells -hier {U3/u_phy/pin_ba_reg}]
+set_property IOB FALSE [get_cells -hier {U3/u_phy/pin_addr_reg}]
+set_property IOB TRUE [get_cells -hier {U3/u_phy/d_in_reg}]
+set_property dont_touch true [get_cells -hier {U3/u_phy/pin_oe_reg}]
+set_property dont_touch true [get_nets -hier {U3/u_phy/pin_oe}]
+
+# independent SW4, HX4S20 manual page18: up=1/down=0.
+set_pin_assignment { sw4 } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# manufacturer HX4S20 manual page18 SW3=C6, up=1/down=0.
+set_pin_assignment { sw3 } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# preserve the elaborated three-stage memory reset register cell.
+# Native SYN confirms this CELL target binds. Downstream physical replication
+# is still possible; final reset topology and all recovery/removal remain audited.
+set_property dont_touch true [get_cells -hier {rst_sdram_sync_reg}]
+
+set_pin_assignment { cache_led[0] } { LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+set_pin_assignment { cache_led[1] } { LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+set_pin_assignment { cache_led[2] } { LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+set_pin_assignment { cache_led[3] } { LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+#3.3V IR receiver OUT: J1 pin1 GPIOA_0.
+set_pin_assignment {ir_rx} {LOCATION = D14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP;}

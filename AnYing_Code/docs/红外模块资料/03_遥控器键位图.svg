@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
+<rect width="1100" height="1000" fill="#f7f9fb"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#18364b">
+<text x="52" y="65" font-size="36" font-weight="700" text-anchor="start">安映 / 遥控器键位</text>
+<text x="52" y="105" font-size="22" font-weight="400" text-anchor="start">实际20键布局 · FPGA完成NEC解码</text>
+<rect x="40" y="142" width="492" height="810" rx="24" fill="#fff" stroke="#b9cbd7" stroke-width="2"/>
+<rect x="55" y="166" width="145" height="94" rx="10" fill="#fcf3df" stroke="#b1c5d1"/>
+<text x="127.5" y="200" font-size="21" font-weight="400" text-anchor="middle">Power</text>
+<text x="127.5" y="238" font-size="22" font-weight="700" text-anchor="middle">睡眠/唤醒</text>
+<rect x="373" y="166" width="145" height="94" rx="10" fill="#eaf2f8" stroke="#b1c5d1"/>
+<text x="445.5" y="200" font-size="21" font-weight="400" text-anchor="middle">Menu</text>
+<text x="445.5" y="238" font-size="24" font-weight="700" text-anchor="middle">参数页面</text>
+<rect x="55" y="276" width="145" height="94" rx="10" fill="#eaf2f8" stroke="#b1c5d1"/>
+<text x="127.5" y="310" font-size="21" font-weight="400" text-anchor="middle">Test</text>
+<text x="127.5" y="348" font-size="24" font-weight="700" text-anchor="middle">亮度＋</text>
+<rect x="214" y="276" width="145" height="94" rx="10" fill="#eaf2f8" stroke="#b1c5d1"/>
+<text x="286.5" y="310" font-size="21" font-weight="400" text-anchor="middle">＋</text>
+<text x="286.5" y="348" font-size="24" font-weight="700" text-anchor="middle">音量＋</text>
+<rect x="373" y="276" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="445.5" y="310" font-size="21" font-weight="400" text-anchor="middle">Return</text>
+<text x="445.5" y="348" font-size="22" font-weight="700" text-anchor="middle">自动/手动</text>
+<rect x="55" y="386" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="127.5" y="420" font-size="21" font-weight="400" text-anchor="middle">左方向键</text>
+<text x="127.5" y="458" font-size="24" font-weight="700" text-anchor="middle">缩略图</text>
+<rect x="214" y="386" width="145" height="94" rx="10" fill="#fcf3df" stroke="#b1c5d1"/>
+<text x="286.5" y="420" font-size="21" font-weight="400" text-anchor="middle">播放键</text>
+<text x="286.5" y="458" font-size="24" font-weight="700" text-anchor="middle">音乐开关</text>
+<rect x="373" y="386" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="445.5" y="420" font-size="21" font-weight="400" text-anchor="middle">右方向键</text>
+<text x="445.5" y="458" font-size="24" font-weight="700" text-anchor="middle">下一张</text>
+<rect x="55" y="496" width="145" height="94" rx="10" fill="#eaf2f8" stroke="#b1c5d1"/>
+<text x="127.5" y="530" font-size="21" font-weight="400" text-anchor="middle">0</text>
+<text x="127.5" y="568" font-size="24" font-weight="700" text-anchor="middle">亮度－</text>
+<rect x="214" y="496" width="145" height="94" rx="10" fill="#eaf2f8" stroke="#b1c5d1"/>
+<text x="286.5" y="530" font-size="21" font-weight="400" text-anchor="middle">－</text>
+<text x="286.5" y="568" font-size="24" font-weight="700" text-anchor="middle">音量－</text>
+<rect x="373" y="496" width="145" height="94" rx="10" fill="#fcf3df" stroke="#b1c5d1"/>
+<text x="445.5" y="530" font-size="21" font-weight="400" text-anchor="middle">C</text>
+<text x="445.5" y="568" font-size="24" font-weight="700" text-anchor="middle">下一首</text>
+<rect x="55" y="606" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="127.5" y="640" font-size="21" font-weight="400" text-anchor="middle">1</text>
+<text x="127.5" y="678" font-size="24" font-weight="700" text-anchor="middle">左右选图</text>
+<rect x="214" y="606" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="286.5" y="640" font-size="21" font-weight="400" text-anchor="middle">2</text>
+<text x="286.5" y="678" font-size="24" font-weight="700" text-anchor="middle">上下选图</text>
+<rect x="373" y="606" width="145" height="94" rx="10" fill="#eaf5f0" stroke="#b1c5d1"/>
+<text x="445.5" y="640" font-size="21" font-weight="400" text-anchor="middle">3</text>
+<text x="445.5" y="678" font-size="22" font-weight="700" text-anchor="middle">轮播周期</text>
+<rect x="55" y="716" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="127.5" y="750" font-size="21" font-weight="400" text-anchor="middle">4</text>
+<rect x="214" y="716" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="286.5" y="750" font-size="21" font-weight="400" text-anchor="middle">5</text>
+<rect x="373" y="716" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="445.5" y="750" font-size="21" font-weight="400" text-anchor="middle">6</text>
+<rect x="55" y="826" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="127.5" y="860" font-size="21" font-weight="400" text-anchor="middle">7</text>
+<rect x="214" y="826" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="286.5" y="860" font-size="21" font-weight="400" text-anchor="middle">8</text>
+<rect x="373" y="826" width="145" height="94" rx="10" fill="#f2f3f4" stroke="#b1c5d1"/>
+<text x="445.5" y="860" font-size="21" font-weight="400" text-anchor="middle">9</text>
+<text x="579" y="195" font-size="29" font-weight="700" text-anchor="start">J1扩展接口连接</text>
+<text x="579" y="244" font-size="25" font-weight="400" text-anchor="start">VCC → J1第29脚 / 3.3 V</text>
+<text x="579" y="292" font-size="25" font-weight="400" text-anchor="start">GND → J1第30脚 / GND</text>
+<text x="579" y="340" font-size="25" font-weight="400" text-anchor="start">OUT → J1第1脚 / D14</text>
+<text x="579" y="424" font-size="27" font-weight="700" text-anchor="start">参数与音乐</text>
+<text x="579" y="466" font-size="23" font-weight="400" text-anchor="start">亮度、音量：在参数页也可调节</text>
+<text x="579" y="504" font-size="23" font-weight="400" text-anchor="start">遥控快捷调节直接保留</text>
+<text x="579" y="542" font-size="23" font-weight="400" text-anchor="start">下一首自动选中歌曲栏</text>
+<text x="579" y="580" font-size="23" font-weight="400" text-anchor="start">音乐开关不改变选中项</text>
+<text x="579" y="660" font-size="27" font-weight="700" text-anchor="start">浏览与唤醒</text>
+<text x="579" y="702" font-size="23" font-weight="400" text-anchor="start">下一张仅在普通手动浏览中生效</text>
+<text x="579" y="740" font-size="23" font-weight="400" text-anchor="start">缩略图选好后，再按左键打开</text>
+<text x="579" y="778" font-size="23" font-weight="400" text-anchor="start">睡眠中仅Power响应遥控唤醒</text>
+<text x="579" y="816" font-size="23" font-weight="400" text-anchor="start">板上四个按键也可唤醒</text>
+<text x="579" y="884" font-size="23" font-weight="400" text-anchor="start">数字3：普通Auto下调周期</text>
+<text x="579" y="922" font-size="23" font-weight="400" text-anchor="start">长按标准重复帧不重复动作</text>
+</g></svg>

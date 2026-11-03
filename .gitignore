@@ -1,0 +1,11 @@
+# Generated build and simulation files
+*_Runs/
+__pycache__/
+*.pyc
+*.wlf
+*.vcd
+transcript
+.vs/
+.idea/
+Thumbs.db
+Desktop.ini

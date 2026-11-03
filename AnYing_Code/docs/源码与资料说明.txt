@@ -1,0 +1,10 @@
+﻿安映 · 源码与资料说明
+
+src/user_source/hdl_source/top_tf_hdmi_audio.v为顶层。
+SD目录负责TF卡、FAT32、图片和音频读取、帧缓存及交互控制。
+player_osd_078.v负责参数界面和文字叠加，player_audio_meter.v负责频带计算。
+ir_nec_remote_100.v完成NEC红外解码；uart_control_link_093.v完成串口控制与状态回复。
+src/user_source/constraints_source保存引脚与时序约束，src/td_project/al_ip保存工程所需IP。
+
+HDMI、FIFO、PLL等厂商配套源文件与加密IP保留原版权和来源信息。
+红外资料中的Arduino示例为模块参考资料，不参与FPGA编译，不是本作品运行依赖；接线及按键功能以本作品说明为准。
